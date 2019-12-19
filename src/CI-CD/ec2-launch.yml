@@ -1,0 +1,14 @@
+---
+- name: Provision fileninja ec2 instance
+  hosts: localhost
+  tasks:
+    - name: Hitting AWS
+      ec2:
+        key_name: se-login.pem
+        instance_type: t2.micro
+        image: ami-12f4d5
+        wait: yes
+        group: default
+        count: 1
+        vpc_subnet_id: subnet-29e63245
+        assign_public_ip: yes

@@ -1,0 +1,64 @@
+---
+- name: Deploy FileNinja
+  remote_user: ubuntu
+  hosts: [all]
+  vars:
+    packages: [npm,nodejs]
+    base_repo: git@github.ncsu.edu:csc510-fall2019/CSC510-7.git
+    local_repo_directory: /home/ubuntu
+    update_packages: [bash, openssl, openssh-server, openssh-client]
+
+  tasks:
+    - name: Install setup packages
+      package:
+        name: "{{ item }}"
+        state: present
+        update_cache: yes
+      with_items: "{{ packages }}"
+      become: yes
+      become_method: sudo
+
+    - name: "Install forever"
+      npm:
+        name: forever
+        global: yes
+        state: present
+      become: yes
+      become_method: sudo
+
+    - name: "Create base repo folder"
+      file:
+        path: "{{ local_repo_directory }}/CSC510-7"
+        state: directory
+        mode: '0777'
+
+    - name: Cloning base repo
+      git:
+        repo: "{{ base_repo }}"
+        dest: "{{ local_repo_directory }}/CSC510-7"
+
+    - name: "Create test temp repo "
+      file:
+        path: "{{ local_repo_directory }}/CSC510-7/src/temp_files"
+        state: directory
+        mode: '0777'
+
+    - name: Transfer env files
+      copy:
+        src: "/var/lib/jenkins/.env"
+        dest: "{{ local_repo_directory }}/CSC510-7/src/.env"
+        owner: ubuntu
+        group: ubuntu
+        mode: '0777'
+
+    - name: Install node packages
+      npm:
+        executable: /usr/bin/npm
+        path: "{{ local_repo_directory }}/CSC510-7/src"
+        state: present
+
+    - name: Stop running fileninja instance
+      command: "forever stopall"
+
+    - name: Run FileNinja from forever
+      command: "forever start --sourceDir {{ local_repo_directory }}/CSC510-7/src index.js"

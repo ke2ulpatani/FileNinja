@@ -1,0 +1,467 @@
+{
+  "watermark_commands": [
+    "--watermark register mock1",
+    "--watermark register",
+    "--watermark wm",
+    "--watermark text Hello",
+    "--watermark text",
+    "--watermark list",
+    "--watermark register wm2"
+  ],
+  "watermarks": [
+    {
+      "type": "message",
+      "text": "--watermark register wm",
+      "files": [
+        {
+          "id": "FPN4VD3TQ",
+          "name": "abc.png",
+          "title": "abc.png",
+          "mimetype": "png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "UNCHC62B5",
+          "editable": false,
+          "size": 75741,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/abc.png",
+          "url_private_download": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/download/abc.png",
+          "thumb_pdf": "https://files.slack.com/files-tmb/TNTGTLN5U-FPN4VD3TQ-84c3f05967/abc_thumb_png.png",
+          "thumb_pdf_w": 935,
+          "thumb_pdf_h": 1210,
+          "permalink": "https://csc510workspace.slack.com/files/UNCHC71B4/FPN4VD3TQ/abc.png",
+          "permalink_public": "https://slack-files.com/TNTGTLN5U-FPN4VD3TQ-3dddf40a9e",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": true,
+      "user": "UNCHC62B5",
+      "display_as_bot": false,
+      "team": "TNTGTLN5U",
+      "client_msg_id": "e8989658-7c37-4fa3-88b3-97572ee2a34f",
+      "user_team": "TNTGTLN5U",
+      "source_team": "TNTGTLN5U",
+      "channel": "DNTLFGPE2"
+    },
+    {
+      "type": "message",
+      "text": "--watermark",
+      "files": [
+        {
+          "id": "FPN4VD3TQ",
+          "name": "rb_sample.pdf",
+          "title": "rb_sample.pdf",
+          "mimetype": "application/pdf",
+          "filetype": "pdf",
+          "pretty_type": "PDF",
+          "user": "UNCHC62B5",
+          "editable": false,
+          "size": 75741,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/rb_sample.pdf",
+          "url_private_download": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/download/rb_sample.pdf",
+          "thumb_pdf": "https://files.slack.com/files-tmb/TNTGTLN5U-FPN4VD3TQ-84c3f05967/rb_sample_thumb_pdf.png",
+          "thumb_pdf_w": 935,
+          "thumb_pdf_h": 1210,
+          "permalink": "https://csc510workspace.slack.com/files/UNCHC71B4/FPN4VD3TQ/rb_sample.pdf",
+          "permalink_public": "https://slack-files.com/TNTGTLN5U-FPN4VD3TQ-3dddf40a9e",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": true,
+      "user": "UNCHC62B5",
+      "display_as_bot": false,
+      "team": "TNTGTLN5U",
+      "client_msg_id": "e8989658-7c37-4fa3-88b3-97572ee2a34f",
+      "user_team": "TNTGTLN5U",
+      "source_team": "TNTGTLN5U",
+      "channel": "DNTLFGPE2"
+    },
+    {
+      "type": "message",
+      "text": "--watermark register wm",
+      "upload": true,
+      "user": "UNCHC62B5",
+      "display_as_bot": false,
+      "team": "TNTGTLN5U",
+      "client_msg_id": "e8989658-7c37-4fa3-88b3-97572ee2a34f",
+      "user_team": "TNTGTLN5U",
+      "source_team": "TNTGTLN5U",
+      "channel": "DNTLFGPE2"
+    },
+    {
+      "type": "message",
+      "text": "--watermark register wm",
+      "files": [
+        {
+          "id": "FPN4VD3TQ",
+          "name": "abc.png",
+          "title": "abc.png",
+          "mimetype": "png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "UNCHC62B5",
+          "editable": false,
+          "size": 75741,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/abc.png",
+          "url_private_download": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/download/abc.png",
+          "thumb_pdf": "https://files.slack.com/files-tmb/TNTGTLN5U-FPN4VD3TQ-84c3f05967/abc_thumb_png.png",
+          "thumb_pdf_w": 935,
+          "thumb_pdf_h": 1210,
+          "permalink": "https://csc510workspace.slack.com/files/UNCHC71B4/FPN4VD3TQ/abc.png",
+          "permalink_public": "https://slack-files.com/TNTGTLN5U-FPN4VD3TQ-3dddf40a9e",
+          "is_starred": false,
+          "has_rich_preview": false
+        },
+        {
+          "id": "FPN4VD3TQ",
+          "name": "abc.png",
+          "title": "abc.png",
+          "mimetype": "png",
+          "filetype": "png",
+          "pretty_type": "PNG",
+          "user": "UNCHC62B5",
+          "editable": false,
+          "size": 75741,
+          "mode": "hosted",
+          "is_external": false,
+          "external_type": "",
+          "is_public": false,
+          "public_url_shared": false,
+          "display_as_bot": false,
+          "username": "",
+          "url_private": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/abc.png",
+          "url_private_download": "https://files.slack.com/files-pri/TNTGTLN5U-FPN4VD3TQ/download/abc.png",
+          "thumb_pdf": "https://files.slack.com/files-tmb/TNTGTLN5U-FPN4VD3TQ-84c3f05967/abc_thumb_png.png",
+          "thumb_pdf_w": 935,
+          "thumb_pdf_h": 1210,
+          "permalink": "https://csc510workspace.slack.com/files/UNCHC71B4/FPN4VD3TQ/abc.png",
+          "permalink_public": "https://slack-files.com/TNTGTLN5U-FPN4VD3TQ-3dddf40a9e",
+          "is_starred": false,
+          "has_rich_preview": false
+        }
+      ],
+      "upload": true,
+      "user": "UNCHC62B5",
+      "display_as_bot": false,
+      "team": "TNTGTLN5U",
+      "client_msg_id": "e8989658-7c37-4fa3-88b3-97572ee2a34f",
+      "user_team": "TNTGTLN5U",
+      "source_team": "TNTGTLN5U",
+      "channel": "DNTLFGPE2"
+    }
+  ],
+  "watermark-bytes": {
+    "Uint8Array": [
+      37,
+      80,
+      68,
+      70,
+      45,
+      49,
+      46,
+      55,
+      10,
+      37,
+      129,
+      129,
+      129,
+      129,
+      10,
+      10,
+      50,
+      32,
+      48,
+      32,
+      111
+    ]
+  },
+  "get_watermark_result": {
+    "Item": {
+      "url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+      "name": "wm2",
+      "channel": "CNK1N4V5F"
+    }
+  },
+  "get_watermark_result_undefined": {},
+  "get_all_watermarks_result": {
+    "Items": [
+      {
+        "url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+        "name": "wm1",
+        "channel": "CNK1N4V5F"
+      },
+      {
+        "url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+        "name": "wm2",
+        "channel": "CNK1N4V5F"
+      },
+      {
+        "url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+        "name": "wm3",
+        "channel": "CNK1N4V5F"
+      }
+    ],
+    "Count": 3
+  },
+  "workspace_size": "3.5",
+  "dynamoDB": {
+    "storage": {
+      "Item": {
+        "id": 2,
+        "limit_size": 3.5,
+        "channel": "DNTLFGPE2"
+      }
+    },
+    "catalog": [
+      {
+        "pid": 45,
+        "pname": "Project1",
+        "cid": "CPL4FFK96"
+      },
+      {
+        "pid": 48,
+        "pname": "Project2",
+        "cid": "DNTLFGPE2"
+      }
+    ],
+    "file_system": [
+      {
+        "file_name": "project1.pdf",
+        "type": "pdf",
+        "size": ".4",
+        "slack_id": "11010",
+        "channel_id": "CPL4FFK96",
+        "catalog_id": "45"
+      },
+      {
+        "file_name": "sample.pdf",
+        "type": "pdf",
+        "size": "1.2",
+        "slack_id": "742829",
+        "channel_id": "DNTLFGPE2",
+        "catalog_id": "45"
+      },
+      {
+        "file_name": "se-report.pdf",
+        "type": "pdf",
+        "size": "1.4",
+        "slack_id": "816382",
+        "channel_id": "DNTLFGPE2",
+        "catalog_id": "48"
+      },
+      {
+        "file_name": "sample1212.pdf",
+        "type": "pdf",
+        "size": "1.4",
+        "slack_id": "816382",
+        "channel_id": "DNTLFGPE2",
+        "catalog_id": "48"
+      }
+    ]
+  },
+  "result_catalog": {
+    "catalog": [
+      {
+        "pid": 55,
+        "pname": "Project4",
+        "cid": "REWQN3WQ"
+      },
+      {
+        "pid": 58,
+        "pname": "Project5",
+        "cid": "TYUQN3WQ"
+      }
+    ]
+  },
+  "result_file_system": {
+    "data": [
+      {
+        "file_name": "sample2.pdf",
+        "type": "pdf",
+        "size": "2.1",
+        "slack_id": "829182",
+        "channel_id": "REWQN3WQ",
+        "catalog_id": "55"
+      },
+      {
+        "file_name": "sample3.pdf",
+        "type": "pdf",
+        "size": "1.6",
+        "slack_id": "816382",
+        "channel_id": "TYUQN3WQ",
+        "catalog_id": "58"
+      }
+    ]
+  },
+  "file_list": {
+    "files": [
+      {
+        "id": "F0S43P1CZ",
+        "created": 1531763254,
+        "timestamp": 1531763254,
+        "name": "project1.pdf",
+        "title": "project1.pdf",
+        "mimetype": "pdf",
+        "filetype": "pdf",
+        "pretty_type": "PDF",
+        "user": "U061F7AUR",
+        "editable": false,
+        "size": 144538,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://project1.pdf",
+        "url_private_download": "https://project1.pdf",
+        "thumb_64": "https://project1.pdf",
+        "thumb_80": "https://project1.pdf",
+        "thumb_360": "https://project1.pdf",
+        "image_exif_rotation": 1,
+        "original_w": 176,
+        "original_h": 226,
+        "channels": [
+          "CNK1N4V5F"
+        ],
+        "groups": [],
+        "ims": [],
+        "comments_count": 0
+      },
+      {
+        "id": "F0S43PZDF",
+        "created": 1531763342,
+        "timestamp": 1531763342,
+        "name": "sample.pdf",
+        "title": "sample.pdf",
+        "mimetype": "pdf",
+        "filetype": "pdf",
+        "pretty_type": "PDF",
+        "user": "U061F7AUR",
+        "editable": false,
+        "size": 137531,
+        "mode": "hosted",
+        "is_external": false,
+        "external_type": "",
+        "is_public": true,
+        "public_url_shared": false,
+        "display_as_bot": false,
+        "username": "",
+        "url_private": "https://sample.pdf",
+        "url_private_download": "https://sample.pdf",
+        "thumb_64": "https://sample.pdf",
+        "thumb_80": "https://sample.pdf",
+        "image_exif_rotation": 1,
+        "original_w": 176,
+        "original_h": 226,
+        "channels": [
+          "CNK1N4V5F"
+        ],
+        "groups": [],
+        "ims": [],
+        "comments_count": 0
+      }
+    ]
+  },
+  "result_google_drive": {
+    "output": [
+      {
+        "name": "sample1.pdf"
+      },
+      {
+        "name": "sample2.pdf"
+      },
+      {
+        "name": "sample3.pdf"
+      },
+      {
+        "name": "sample4.pdf"
+      },
+      {
+        "name": "sample5.pdf"
+      }
+    ]
+  },
+  "slack_delete_output": "ok",
+  "get_category_result": {
+    "Item": {
+      "name": "mock1",
+      "channel": "CNK1N4V5F"
+    }
+  },
+  "get_category_result_undefined": {},
+  "get_all_categories_result": {
+    "Items": [
+      {
+        "name": "mock1",
+        "channel": "CNK1N4V5F"
+      },
+      {
+        "name": "mock2",
+        "channel": "CNK1N4V5F"
+      },
+      {
+        "name": "mock3",
+        "channel": "CNK1N4V5F"
+      }
+    ],
+    "Count": 3
+  },
+  "get_all_categories_result_zero": {
+    "Items": [],
+    "Count": 0
+  },
+  "show_all_files_in_category_result": {
+    "Items": [
+      {
+        "file_url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+        "file_name": "file1",
+        "file_id": "1"
+      },
+      {
+        "file_url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+        "file_name": "file2",
+        "file_id": "2"
+      },
+      {
+        "file_url": "https://files.slack.com/files-pri/TNTGTLN5U-FPKEGRLJ0/lugia_tribal_by_katlyon-d7u5u9p.png",
+        "file_name": "file3",
+        "file_id": "3"
+      }
+    ],
+    "Count": 3
+  },
+  "show_all_files_in_category_result_zero": {
+    "Items": [],
+    "Count": 0
+  },
+  "get_drive_result": {
+    "Item": {
+      "drive_name": "mock_drive"
+    }
+  },
+  "get_drive_result_undefined": {}
+}

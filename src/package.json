@@ -1,0 +1,39 @@
+{
+  "name": "script-bot",
+  "version": "1.0.0",
+  "description": "Slack Bot to run scripts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "author": "CSC510-7 ",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.553.0",
+    "body-parser": "1.19.0",
+    "delay": "^4.3.0",
+    "dotenv": "^2.0.0",
+    "express": "4.17.1",
+    "googleapis": "^45.0.0",
+    "got": "^9.6.0",
+    "jimp": "0.8.4",
+    "mime-types": "^2.1.24",
+    "node-blob": "0.0.2",
+    "node-fetch": "^2.0.0",
+    "nodejslack": "^1.1.1",
+    "path": "0.12.7",
+    "pdf-lib": "1.2.0",
+    "pdfjs-dist": "^2.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "sinon": "^7.5.0",
+    "slackbots": "^0.5.3",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "4.5.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nock": "^11.4.0"
+  }
+}
